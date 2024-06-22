@@ -1,0 +1,10 @@
+a = input()
+b = int(input())
+c = int(input())
+d = int(input())
+
+print('Чек')
+print(f'{a} - {c}кг - {b}руб/кг')
+print(f'Итого: {b * c}руб')
+print(f'Внесено: {d}руб')
+print(f'Сдача: {d - b * c}руб')
